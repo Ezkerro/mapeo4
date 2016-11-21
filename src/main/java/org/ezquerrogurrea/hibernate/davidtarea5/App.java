@@ -28,9 +28,9 @@ public class App
     	doctor2.addPatients(patient1);
     	doctor2.addPatients(patient2);
     	
-    	PatientDAO patientDAO = new PatientDAO();
-    	patientDAO.insert(patient1);
-    	patientDAO.insert(patient2);
+    	//PatientDAO patientDAO = new PatientDAO();
+    	//patientDAO.insert(patient1);
+    	//patientDAO.insert(patient2);
     	DoctorDAO doctorDAO = new DoctorDAO();
     	doctorDAO.insert(doctor1);
     	doctorDAO.insert(doctor2);
